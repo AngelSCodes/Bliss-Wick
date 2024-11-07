@@ -100,11 +100,12 @@ z-index: 2;
 /*bestsellers section*/
 h2 {
     font-size: 2rem;
+    text-align: center;
 }
 h3 {
     font-size: 1.5rem;
     color:#111;
-    background: rgba(211, 211, 211, 0.4);
+    background: rgba(211, 211, 211, 0.6);
 }
 .bestsellers-img {
     width: 300px;
@@ -138,7 +139,7 @@ margin-bottom: 0px;
     border-bottom: 1px solid #422a09;
 }
 
-#view-more button{
+#view-more button, .view-collection-products {
     background: rgb(240, 193, 133);
     color: #111;
     border: 1px solid transparent;
@@ -180,3 +181,38 @@ line-height: 1.2;
 }
 
 /*Collection*/
+#collection {
+    border-top: 1px solid #422a09;
+
+}
+
+#collection-flex{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px ;
+    place-self: center;
+
+}
+.collection-image{
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+   
+}
+
+.image-text {
+    position: relative;
+    top:-28%;
+    left: 10%;
+}
+.collection-name {
+    font-size: 1.7rem;
+    margin-bottom: 5px;
+    width: fit-content;
+    border-radius: 2px;
+}
+.view-collection-products:hover {
+    background-color: white;
+    color: #422a09;
+    transition-duration: 1s;
+}

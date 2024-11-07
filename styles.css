@@ -99,26 +99,58 @@ z-index: 2;
 
 /*bestsellers section*/
 h2 {
+    font-size: 2rem;
+}
+h3 {
     font-size: 1.5rem;
+    color:#111;
+    background: rgba(211, 211, 211, 0.4);
 }
 .bestsellers-img {
     width: 300px;
     height: 300px;
     border-radius: 5px;
-    
+ 
+}
+.bestsellers-img-container {
+margin-bottom: 0px;
+    transition: all 0.4s ease-in-out;
+}
+.bestsellers-img-container:hover {
+    transform: scale(1.1);
+
+}
+.bestseller-heading {
+    position: relative;
+    top: 80%;
+
 }
 
 #best-sellers-media-container {
     display: flex;
     justify-content: space-around;
     margin-bottom: 20px;
-    background: rgb(241, 202, 150);
-    padding: 10px;
+    background: rgba(66, 42, 9, 0.8);
 }
 
     #bestsellers {
     text-align: center;
     border-bottom: 1px solid #422a09;
+}
+
+#view-more button{
+    background: rgb(240, 193, 133);
+    color: #111;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding:15px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+#view-more button:hover {
+    transition: all 300ms ease-out;
+    background:  #422a09;
+    color: white;
 }
 
 
@@ -142,18 +174,3 @@ h2 {
     
 }
 
-/*bestsellers section*/
-#view-more button{
-    background: rgb(240, 193, 133);
-    color: #111;
-    border: 1px solid transparent;
-    border-radius: 2px;
-    padding:15px;
-    cursor: pointer;
-    margin-bottom: 15px;
-}
-#view-more button:hover {
-    transition: all 300ms ease-out;
-    background:  #422a09;
-    color: white;
-}

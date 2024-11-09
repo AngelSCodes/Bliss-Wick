@@ -174,7 +174,7 @@ margin-bottom: 0px;
     margin-top: 80px;
     
 }
-#about-us {
+#about-us, #info-content {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 20px;
 line-height: 1.2;
@@ -215,4 +215,24 @@ line-height: 1.2;
     background-color: white;
     color: #422a09;
     transition-duration: 1s;
+}
+
+/*discover section*/
+
+#info {
+    border-top: 1px solid #422a09;
+    margin:  20px 0;
+    padding: 10px;
+    border-bottom: 1px solid #422a09;
+}
+
+#info-container {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+#video {
+    height: 250px;
+    width: 300px;
 }

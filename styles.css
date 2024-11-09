@@ -261,12 +261,17 @@ line-height: 1.2;
     margin-bottom: 15px;
 }
 #submit {
-    background-color: rgb(245, 75, 75);
+    background-color: rgb(171, 239, 241);
     padding:18px;
     margin-bottom: 25px;
     font-size: 1.2rem;
     border-radius: 10px;
     border: none;
+    cursor: pointer;
+}
+#submit:hover {
+transform: scale(1.2);
+background-color: rgb(96, 148, 226);
 }
 
 footer{

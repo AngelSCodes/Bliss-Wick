@@ -268,3 +268,9 @@ line-height: 1.2;
     border-radius: 10px;
     border: none;
 }
+
+footer{
+    text-align: center;
+    margin: 25px;
+    color: gray;
+}
